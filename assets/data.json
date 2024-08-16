@@ -1,0 +1,15 @@
+[
+    {
+      "step": 100,
+      "image": "assets/arrow.png"
+    },
+    {
+      "step": 300,
+      "image": "assets/arrow.png"
+    },
+    {
+      "step": 400,
+      "image": "assets/arrow.png"
+    }
+  ]
+  

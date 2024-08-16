@@ -40,7 +40,7 @@ class AuthorCopiesScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [OfferSection(isFree: true, isOffer: false)],
+            children: [OfferSection(isFree: true, isOffer: true)],
           ),
         ),
       ),

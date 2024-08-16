@@ -11,7 +11,7 @@ class BuildQuantityFieldWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10),
       decoration: BoxDecoration(
         color: Colors.grey[200],
-        border: Border.all(color: Colors.black),
+        border: Border.all(color: Colors.black, width: 0.2),
       ),
       child: TextField(
         readOnly: true,

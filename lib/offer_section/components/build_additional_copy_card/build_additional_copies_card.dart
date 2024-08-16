@@ -10,6 +10,7 @@ class BuildAdditionalCopiesCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      margin: EdgeInsets.zero,
       color: Colors.white,
       elevation: 0,
       shape: RoundedRectangleBorder(
@@ -38,7 +39,7 @@ class BuildAdditionalCopiesCardWidget extends StatelessWidget {
                     text: 'upto 20% OFF',
                     style: GoogleFonts.poppins(
                       fontSize: 14,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w400,
                       color: Colors.red, // You can also use Color(0xFFFF0000)
                     ),
                   ),

@@ -53,13 +53,14 @@ class BuildDiscountTilesWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 05),
+                  padding: const EdgeInsets.only(top: 1),
                   child: CircleAvatar(
                     backgroundColor: iconColor.withOpacity(1),
                     radius: 08,
                     child: const Icon(
                       Icons.percent,
                       size: 10,
+                      color: Colors.white,
                     ),
                   ),
                 ),
@@ -74,7 +75,7 @@ class BuildDiscountTilesWidget extends StatelessWidget {
                         title,
                         style: GoogleFonts.poppins(
                           fontSize: 16,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w600,
                           color: Colors.black,
                         ),
                       ),
@@ -82,7 +83,7 @@ class BuildDiscountTilesWidget extends StatelessWidget {
                       Text(
                         subtitle,
                         style: GoogleFonts.poppins(
-                          fontSize: 14,
+                          fontSize: 13,
                           color: Colors.black,
                         ),
                       ),
